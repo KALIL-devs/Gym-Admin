@@ -19,16 +19,16 @@ To help new users visualize the application, take screenshots of the key pages, 
 
 | Description | Screenshot |
 | :--- | :--- |
-| **Admin Dashboard:** Overview of key statistics, status pills, and membership summaries. | `![Dashboard Screenshot](screenshots/dashboard.png)` |
+| **Admin Dashboard:** Overview of Members status shown by their membership end date.
 <img width="1903" height="907" alt="image" src="https://github.com/user-attachments/assets/c755df6e-b50c-40da-9f64-bc670c1c9334" />
 
-| **Client Management Page:** The main area for searching clients and viewing the table section. | `![Client List Screenshot](screenshots/client_list.png)` |
+| **Client Management Page:** The main area for searching clients and viewing the table section.
 <img width="1916" height="915" alt="image" src="https://github.com/user-attachments/assets/2a3249cc-ec72-4100-a091-5f93d77d7abe" />
 
-| **Membership Renewal Modal:** Showing the form or process for renewing a client's membership. | `![Renewal Modal Screenshot](screenshots/renewal_modal.png)` |
+| **Membership Renewal Modal:** Showing the form or process for renewing a client's membership.
 <img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/cfa04443-9b78-4a99-ada3-a3f85a545e5d" />
 
-| **Renewal History Page:** Displaying past membership renewals for auditing. | `![History Page Screenshot](screenshots/history_page.png)` |
+| **Renewal History Page:** Displaying past membership renewals for auditing.
 <img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/215273e2-6fc6-4a6b-92e7-4a98aec8b54e" />
 
 ---
