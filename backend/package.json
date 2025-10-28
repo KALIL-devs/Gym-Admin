@@ -1,0 +1,36 @@
+{
+  "name": "aayshmaa-fitness",
+  "version": "1.0.0",
+  "description": "Aayshmaa Fitness desktop and web application (offline-ready using SQLite).",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "build-exe": "pkg index.js --targets node18-win-x64 --output AayshmaaFitness.exe"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.9",
+    "sqlite3": "^5.1.7"
+  },
+  "pkg": {
+    "assets": [
+      "../client-side/dist/**/*",
+      "gym_management.sqlite"
+    ],
+    "scripts": [
+      "index.js"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  }
+}
