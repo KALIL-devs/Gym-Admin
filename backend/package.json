@@ -6,11 +6,11 @@
   "bin": "index.js",
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "start": "node index.js",
-    "build-client": "npm install --prefix ../client-side && npm run build --prefix ../client-side",
-    "build-exe": "pkg index.js --targets node18-win-x64 --output AayshmaaFitness.exe"
-  },
+"scripts": {
+  "start": "node index.js",
+  "build-client": "cd ../client-side && npm install && npm run build",
+  "build": "npm rebuild sqlite3 --build-from-source && npm run build-client"
+},
   "dependencies": {
     "bcrypt": "^6.0.0",
     "body-parser": "^2.2.0",
