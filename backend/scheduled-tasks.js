@@ -63,13 +63,19 @@ async function checkAndNotifyClients() {
             // Condition 1: Membership expires in exactly 3 days.
             if (daysDifference === 3) {
                 emailPromises.push(
+                    console.log(`- Scheduling email for ${client.name} (expires in 3 days).`)
+                /*
                     sendMembershipReminder(client.email, client.name, 3)
+                */
                 );
             } 
             // Condition 2: Membership expires today.
             else if (daysDifference === 0) {
                 emailPromises.push(
+                    console.log(`- Scheduling email for ${client.name} (expires today).`)
+                /*  
                     sendMembershipReminder(client.email, client.name, 0)
+                */    
                 );
             } 
             // -------------------------------------------------------------
